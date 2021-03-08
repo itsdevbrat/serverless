@@ -48,7 +48,7 @@ functions:
         cors: true
         method: get
 
-2. index.js
+**2. index.js**
 
 'use strict';
 const express = require('express')
@@ -72,4 +72,5 @@ module.exports.getOrders = async (event, context) => {
  return await handler(event, context);
 };
 
-3. Write your routers in the respective folders
+**3. Write your routers in the respective folders**
+
